@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo su -
-yum -y update
-
 postfix off
 chkconfig postfix off
 
